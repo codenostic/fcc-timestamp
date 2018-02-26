@@ -4,7 +4,7 @@
 // init project
 var express = require('express');
 var app = express();
-var date = require("/public/date.js");
+var date = require("./public/date.js");
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
