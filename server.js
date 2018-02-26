@@ -4,7 +4,7 @@
 // init project
 var express = require('express');
 var app = express();
-
+var date = require("/public/date.js");
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
@@ -16,7 +16,9 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 app.get("/*", function(request, response, next){
-  response.send(request.params);
+  var data = request.params["0"];
+  var dateObject = date(data);
+  response.send(dateObject);
 });
         
 // listen for requests :)
