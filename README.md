@@ -1,8 +1,7 @@
-TimeStamp Microservice
+[TimeStamp Microservice](https://glitch.com/edit/#!/fcc-timestamp-ms-bhupesh?path=README.md:16:35)
 =========================
-[link](https://glitch.com/edit/#!/fcc-timestamp-ms-bhupesh?path=README.md:16:35)
 
-Click `Show` in the header to see app live. 
+Click link above and Click `Show` in the header to see app live. 
 
 Objective
 ------------
