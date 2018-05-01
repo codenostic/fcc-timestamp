@@ -4,7 +4,7 @@
 // init project
 var express = require('express');
 var app = express();
-var date = require("./public/date.js");
+// var date = require("./public/date.js");
 var moment = require('moment');
 
 // we've started you off with Express, 
