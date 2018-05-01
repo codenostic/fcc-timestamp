@@ -7,10 +7,11 @@ Objective
 ------------
 
 - check for valid date in unix or natural date format
-- drag in `assets`, like images or music, to add them to your project
+- If valid date return unix timestamp and natural language date in json format. 
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+Learning
+------------
+- Using Moment package
+- Setup server and routes.
+- save in git repository, gitignore
 
